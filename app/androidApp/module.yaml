@@ -1,0 +1,13 @@
+product: android/app
+
+dependencies:
+  - //app/shared
+  - $libs.androidx.activity.compose
+  - $compose.preview
+  - $compose.uiTooling
+
+settings:
+  compose: enabled
+  android:
+    namespace: org.example.kotlin2026
+    applicationId: org.example.kotlin2026
